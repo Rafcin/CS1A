@@ -84,6 +84,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/home/raf/CS1A/CLion/avg.cpp">
+			<Option target="CLion"/>
+		</Unit>
 		<Unit filename="/home/raf/CS1A/CLion/main.cpp">
 			<Option target="CLion"/>
 		</Unit>

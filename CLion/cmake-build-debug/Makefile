@@ -123,6 +123,33 @@ CLion/fast:
 	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/build
 .PHONY : CLion/fast
 
+avg.o: avg.cpp.o
+
+.PHONY : avg.o
+
+# target to build an object file
+avg.cpp.o:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/avg.cpp.o
+.PHONY : avg.cpp.o
+
+avg.i: avg.cpp.i
+
+.PHONY : avg.i
+
+# target to preprocess a source file
+avg.cpp.i:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/avg.cpp.i
+.PHONY : avg.cpp.i
+
+avg.s: avg.cpp.s
+
+.PHONY : avg.s
+
+# target to generate assembly for a file
+avg.cpp.s:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/avg.cpp.s
+.PHONY : avg.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -159,6 +186,9 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... CLion"
 	@echo "... edit_cache"
+	@echo "... avg.o"
+	@echo "... avg.i"
+	@echo "... avg.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
