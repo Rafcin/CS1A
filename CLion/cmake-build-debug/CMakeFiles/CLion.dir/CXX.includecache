@@ -6,9 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/raf/CS1A/CLion/main.cpp
+/home/raf/Desktop/CS1A/CLion/main.cpp
 iostream
 -
 iomanip
+-
+vector
 -
 

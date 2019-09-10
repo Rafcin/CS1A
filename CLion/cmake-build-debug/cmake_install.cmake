@@ -1,4 +1,4 @@
-# Install script for directory: /home/raf/CS1A/CLion
+# Install script for directory: /home/raf/Desktop/CS1A/CLion
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/raf/CS1A/CLion/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/raf/Desktop/CS1A/CLion/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
