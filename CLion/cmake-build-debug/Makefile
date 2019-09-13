@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raf/Desktop/CS1A/CLion
+CMAKE_SOURCE_DIR = /Users/rafaelszuminski/CS1A/CLion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raf/Desktop/CS1A/CLion/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/rafaelszuminski/CS1A/CLion/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/raf/Desktop/CS1A/CLion/cmake-build-debug
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raf/Desktop/CS1A/CLion/cmake-build-debug/CMakeFiles /home/raf/Desktop/CS1A/CLion/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rafaelszuminski/CS1A/CLion/cmake-build-debug/CMakeFiles /Users/rafaelszuminski/CS1A/CLion/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/raf/Desktop/CS1A/CLion/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/rafaelszuminski/CS1A/CLion/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -177,6 +177,33 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/main.cpp.s
 .PHONY : main.cpp.s
 
+r_utils.o: r_utils.cpp.o
+
+.PHONY : r_utils.o
+
+# target to build an object file
+r_utils.cpp.o:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/r_utils.cpp.o
+.PHONY : r_utils.cpp.o
+
+r_utils.i: r_utils.cpp.i
+
+.PHONY : r_utils.i
+
+# target to preprocess a source file
+r_utils.cpp.i:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/r_utils.cpp.i
+.PHONY : r_utils.cpp.i
+
+r_utils.s: r_utils.cpp.s
+
+.PHONY : r_utils.s
+
+# target to generate assembly for a file
+r_utils.cpp.s:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/r_utils.cpp.s
+.PHONY : r_utils.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -184,14 +211,17 @@ help:
 	@echo "... clean"
 	@echo "... depend"
 	@echo "... rebuild_cache"
-	@echo "... CLion"
 	@echo "... edit_cache"
+	@echo "... CLion"
 	@echo "... avg.o"
 	@echo "... avg.i"
 	@echo "... avg.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
+	@echo "... r_utils.o"
+	@echo "... r_utils.i"
+	@echo "... r_utils.s"
 .PHONY : help
 
 

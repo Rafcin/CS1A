@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake
+CMAKE_COMMAND = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake
 
 # The command to remove a file.
-RM = /home/raf/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/192.6262.62/bin/cmake/linux/bin/cmake -E remove -f
+RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/raf/Desktop/CS1A/CLion
+CMAKE_SOURCE_DIR = /Users/rafaelszuminski/CS1A/CLion
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/raf/Desktop/CS1A/CLion/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/rafaelszuminski/CS1A/CLion/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/CLion.dir/depend.make
@@ -59,43 +59,58 @@ include CMakeFiles/CLion.dir/flags.make
 
 CMakeFiles/CLion.dir/main.cpp.o: CMakeFiles/CLion.dir/flags.make
 CMakeFiles/CLion.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raf/Desktop/CS1A/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLion.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CLion.dir/main.cpp.o -c /home/raf/Desktop/CS1A/CLion/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rafaelszuminski/CS1A/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/CLion.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CLion.dir/main.cpp.o -c /Users/rafaelszuminski/CS1A/CLion/main.cpp
 
 CMakeFiles/CLion.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLion.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raf/Desktop/CS1A/CLion/main.cpp > CMakeFiles/CLion.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rafaelszuminski/CS1A/CLion/main.cpp > CMakeFiles/CLion.dir/main.cpp.i
 
 CMakeFiles/CLion.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLion.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raf/Desktop/CS1A/CLion/main.cpp -o CMakeFiles/CLion.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rafaelszuminski/CS1A/CLion/main.cpp -o CMakeFiles/CLion.dir/main.cpp.s
 
 CMakeFiles/CLion.dir/avg.cpp.o: CMakeFiles/CLion.dir/flags.make
 CMakeFiles/CLion.dir/avg.cpp.o: ../avg.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/raf/Desktop/CS1A/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CLion.dir/avg.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CLion.dir/avg.cpp.o -c /home/raf/Desktop/CS1A/CLion/avg.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rafaelszuminski/CS1A/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/CLion.dir/avg.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CLion.dir/avg.cpp.o -c /Users/rafaelszuminski/CS1A/CLion/avg.cpp
 
 CMakeFiles/CLion.dir/avg.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLion.dir/avg.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/raf/Desktop/CS1A/CLion/avg.cpp > CMakeFiles/CLion.dir/avg.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rafaelszuminski/CS1A/CLion/avg.cpp > CMakeFiles/CLion.dir/avg.cpp.i
 
 CMakeFiles/CLion.dir/avg.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLion.dir/avg.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/raf/Desktop/CS1A/CLion/avg.cpp -o CMakeFiles/CLion.dir/avg.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rafaelszuminski/CS1A/CLion/avg.cpp -o CMakeFiles/CLion.dir/avg.cpp.s
+
+CMakeFiles/CLion.dir/r_utils.cpp.o: CMakeFiles/CLion.dir/flags.make
+CMakeFiles/CLion.dir/r_utils.cpp.o: ../r_utils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/rafaelszuminski/CS1A/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/CLion.dir/r_utils.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/CLion.dir/r_utils.cpp.o -c /Users/rafaelszuminski/CS1A/CLion/r_utils.cpp
+
+CMakeFiles/CLion.dir/r_utils.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/CLion.dir/r_utils.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/rafaelszuminski/CS1A/CLion/r_utils.cpp > CMakeFiles/CLion.dir/r_utils.cpp.i
+
+CMakeFiles/CLion.dir/r_utils.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/CLion.dir/r_utils.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/rafaelszuminski/CS1A/CLion/r_utils.cpp -o CMakeFiles/CLion.dir/r_utils.cpp.s
 
 # Object files for target CLion
 CLion_OBJECTS = \
 "CMakeFiles/CLion.dir/main.cpp.o" \
-"CMakeFiles/CLion.dir/avg.cpp.o"
+"CMakeFiles/CLion.dir/avg.cpp.o" \
+"CMakeFiles/CLion.dir/r_utils.cpp.o"
 
 # External object files for target CLion
 CLion_EXTERNAL_OBJECTS =
 
 CLion: CMakeFiles/CLion.dir/main.cpp.o
 CLion: CMakeFiles/CLion.dir/avg.cpp.o
+CLion: CMakeFiles/CLion.dir/r_utils.cpp.o
 CLion: CMakeFiles/CLion.dir/build.make
 CLion: CMakeFiles/CLion.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/raf/Desktop/CS1A/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable CLion"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/rafaelszuminski/CS1A/CLion/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable CLion"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/CLion.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -108,6 +123,6 @@ CMakeFiles/CLion.dir/clean:
 .PHONY : CMakeFiles/CLion.dir/clean
 
 CMakeFiles/CLion.dir/depend:
-	cd /home/raf/Desktop/CS1A/CLion/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/raf/Desktop/CS1A/CLion /home/raf/Desktop/CS1A/CLion /home/raf/Desktop/CS1A/CLion/cmake-build-debug /home/raf/Desktop/CS1A/CLion/cmake-build-debug /home/raf/Desktop/CS1A/CLion/cmake-build-debug/CMakeFiles/CLion.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/rafaelszuminski/CS1A/CLion/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/rafaelszuminski/CS1A/CLion /Users/rafaelszuminski/CS1A/CLion /Users/rafaelszuminski/CS1A/CLion/cmake-build-debug /Users/rafaelszuminski/CS1A/CLion/cmake-build-debug /Users/rafaelszuminski/CS1A/CLion/cmake-build-debug/CMakeFiles/CLion.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/CLion.dir/depend
 

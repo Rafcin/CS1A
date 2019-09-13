@@ -3,4 +3,4 @@ project(CLion)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(CLion main.cpp avg.cpp)
+add_executable(CLion main.cpp avg.cpp r_utils.cpp)

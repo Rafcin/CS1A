@@ -1,6 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CLion.dir/main.cpp.o"
   "CMakeFiles/CLion.dir/avg.cpp.o"
+  "CMakeFiles/CLion.dir/r_utils.cpp.o"
   "CLion.pdb"
   "CLion"
 )

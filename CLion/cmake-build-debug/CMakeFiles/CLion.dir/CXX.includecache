@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/raf/Desktop/CS1A/CLion/main.cpp
+/Users/rafaelszuminski/CS1A/CLion/main.cpp
 iostream
 -
 iomanip
 -
-vector
+math.h
 -
 
