@@ -80,13 +80,19 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/rafaelszuminski/CS1A/CLion/avg.cpp">
+		<Unit filename="/Users/rafaelszuminski/CS1A/CLion/HW/avg.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="/Users/rafaelszuminski/CS1A/CLion/HW/hw_02.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="/Users/rafaelszuminski/CS1A/CLion/HW/r_utils.cpp">
+			<Option target="CLion"/>
+		</Unit>
+		<Unit filename="/Users/rafaelszuminski/CS1A/CLion/LAB/lab_01.cpp">
 			<Option target="CLion"/>
 		</Unit>
 		<Unit filename="/Users/rafaelszuminski/CS1A/CLion/main.cpp">
-			<Option target="CLion"/>
-		</Unit>
-		<Unit filename="/Users/rafaelszuminski/CS1A/CLion/r_utils.cpp">
 			<Option target="CLion"/>
 		</Unit>
 		<Unit filename="/Users/rafaelszuminski/CS1A/CLion/CMakeLists.txt">

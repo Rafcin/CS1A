@@ -123,32 +123,113 @@ CLion/fast:
 	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/build
 .PHONY : CLion/fast
 
-avg.o: avg.cpp.o
+HW/avg.o: HW/avg.cpp.o
 
-.PHONY : avg.o
+.PHONY : HW/avg.o
 
 # target to build an object file
-avg.cpp.o:
-	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/avg.cpp.o
-.PHONY : avg.cpp.o
+HW/avg.cpp.o:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/HW/avg.cpp.o
+.PHONY : HW/avg.cpp.o
 
-avg.i: avg.cpp.i
+HW/avg.i: HW/avg.cpp.i
 
-.PHONY : avg.i
+.PHONY : HW/avg.i
 
 # target to preprocess a source file
-avg.cpp.i:
-	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/avg.cpp.i
-.PHONY : avg.cpp.i
+HW/avg.cpp.i:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/HW/avg.cpp.i
+.PHONY : HW/avg.cpp.i
 
-avg.s: avg.cpp.s
+HW/avg.s: HW/avg.cpp.s
 
-.PHONY : avg.s
+.PHONY : HW/avg.s
 
 # target to generate assembly for a file
-avg.cpp.s:
-	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/avg.cpp.s
-.PHONY : avg.cpp.s
+HW/avg.cpp.s:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/HW/avg.cpp.s
+.PHONY : HW/avg.cpp.s
+
+HW/hw_02.o: HW/hw_02.cpp.o
+
+.PHONY : HW/hw_02.o
+
+# target to build an object file
+HW/hw_02.cpp.o:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/HW/hw_02.cpp.o
+.PHONY : HW/hw_02.cpp.o
+
+HW/hw_02.i: HW/hw_02.cpp.i
+
+.PHONY : HW/hw_02.i
+
+# target to preprocess a source file
+HW/hw_02.cpp.i:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/HW/hw_02.cpp.i
+.PHONY : HW/hw_02.cpp.i
+
+HW/hw_02.s: HW/hw_02.cpp.s
+
+.PHONY : HW/hw_02.s
+
+# target to generate assembly for a file
+HW/hw_02.cpp.s:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/HW/hw_02.cpp.s
+.PHONY : HW/hw_02.cpp.s
+
+HW/r_utils.o: HW/r_utils.cpp.o
+
+.PHONY : HW/r_utils.o
+
+# target to build an object file
+HW/r_utils.cpp.o:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/HW/r_utils.cpp.o
+.PHONY : HW/r_utils.cpp.o
+
+HW/r_utils.i: HW/r_utils.cpp.i
+
+.PHONY : HW/r_utils.i
+
+# target to preprocess a source file
+HW/r_utils.cpp.i:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/HW/r_utils.cpp.i
+.PHONY : HW/r_utils.cpp.i
+
+HW/r_utils.s: HW/r_utils.cpp.s
+
+.PHONY : HW/r_utils.s
+
+# target to generate assembly for a file
+HW/r_utils.cpp.s:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/HW/r_utils.cpp.s
+.PHONY : HW/r_utils.cpp.s
+
+LAB/lab_01.o: LAB/lab_01.cpp.o
+
+.PHONY : LAB/lab_01.o
+
+# target to build an object file
+LAB/lab_01.cpp.o:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/LAB/lab_01.cpp.o
+.PHONY : LAB/lab_01.cpp.o
+
+LAB/lab_01.i: LAB/lab_01.cpp.i
+
+.PHONY : LAB/lab_01.i
+
+# target to preprocess a source file
+LAB/lab_01.cpp.i:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/LAB/lab_01.cpp.i
+.PHONY : LAB/lab_01.cpp.i
+
+LAB/lab_01.s: LAB/lab_01.cpp.s
+
+.PHONY : LAB/lab_01.s
+
+# target to generate assembly for a file
+LAB/lab_01.cpp.s:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/LAB/lab_01.cpp.s
+.PHONY : LAB/lab_01.cpp.s
 
 main.o: main.cpp.o
 
@@ -177,33 +258,6 @@ main.cpp.s:
 	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/main.cpp.s
 .PHONY : main.cpp.s
 
-r_utils.o: r_utils.cpp.o
-
-.PHONY : r_utils.o
-
-# target to build an object file
-r_utils.cpp.o:
-	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/r_utils.cpp.o
-.PHONY : r_utils.cpp.o
-
-r_utils.i: r_utils.cpp.i
-
-.PHONY : r_utils.i
-
-# target to preprocess a source file
-r_utils.cpp.i:
-	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/r_utils.cpp.i
-.PHONY : r_utils.cpp.i
-
-r_utils.s: r_utils.cpp.s
-
-.PHONY : r_utils.s
-
-# target to generate assembly for a file
-r_utils.cpp.s:
-	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/r_utils.cpp.s
-.PHONY : r_utils.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -213,15 +267,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... CLion"
-	@echo "... avg.o"
-	@echo "... avg.i"
-	@echo "... avg.s"
+	@echo "... HW/avg.o"
+	@echo "... HW/avg.i"
+	@echo "... HW/avg.s"
+	@echo "... HW/hw_02.o"
+	@echo "... HW/hw_02.i"
+	@echo "... HW/hw_02.s"
+	@echo "... HW/r_utils.o"
+	@echo "... HW/r_utils.i"
+	@echo "... HW/r_utils.s"
+	@echo "... LAB/lab_01.o"
+	@echo "... LAB/lab_01.i"
+	@echo "... LAB/lab_01.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"
-	@echo "... r_utils.o"
-	@echo "... r_utils.i"
-	@echo "... r_utils.s"
 .PHONY : help
 
 

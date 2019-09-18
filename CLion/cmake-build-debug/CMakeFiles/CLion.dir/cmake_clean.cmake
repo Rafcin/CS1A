@@ -1,7 +1,9 @@
 file(REMOVE_RECURSE
   "CMakeFiles/CLion.dir/main.cpp.o"
-  "CMakeFiles/CLion.dir/avg.cpp.o"
-  "CMakeFiles/CLion.dir/r_utils.cpp.o"
+  "CMakeFiles/CLion.dir/HW/avg.cpp.o"
+  "CMakeFiles/CLion.dir/HW/r_utils.cpp.o"
+  "CMakeFiles/CLion.dir/LAB/lab_01.cpp.o"
+  "CMakeFiles/CLion.dir/HW/hw_02.cpp.o"
   "CLion.pdb"
   "CLion"
 )
