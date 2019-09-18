@@ -5,3 +5,5 @@ CMakeFiles/CLion.dir/avg.cpp.o: ../avg.cpp
 
 CMakeFiles/CLion.dir/main.cpp.o: ../main.cpp
 
+CMakeFiles/CLion.dir/r_utils.cpp.o: ../r_utils.cpp
+
