@@ -6,8 +6,12 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/rafaelszuminski/CS1A/CLion/HW/avg.cpp" "/Users/rafaelszuminski/CS1A/CLion/cmake-build-debug/CMakeFiles/CLion.dir/HW/avg.cpp.o"
   "/Users/rafaelszuminski/CS1A/CLion/HW/hw_02.cpp" "/Users/rafaelszuminski/CS1A/CLion/cmake-build-debug/CMakeFiles/CLion.dir/HW/hw_02.cpp.o"
+  "/Users/rafaelszuminski/CS1A/CLion/HW/hw_03.cpp" "/Users/rafaelszuminski/CS1A/CLion/cmake-build-debug/CMakeFiles/CLion.dir/HW/hw_03.cpp.o"
+  "/Users/rafaelszuminski/CS1A/CLion/HW/hw_04.cpp" "/Users/rafaelszuminski/CS1A/CLion/cmake-build-debug/CMakeFiles/CLion.dir/HW/hw_04.cpp.o"
+  "/Users/rafaelszuminski/CS1A/CLion/HW/lab_01.cpp" "/Users/rafaelszuminski/CS1A/CLion/cmake-build-debug/CMakeFiles/CLion.dir/HW/lab_01.cpp.o"
   "/Users/rafaelszuminski/CS1A/CLion/HW/r_utils.cpp" "/Users/rafaelszuminski/CS1A/CLion/cmake-build-debug/CMakeFiles/CLion.dir/HW/r_utils.cpp.o"
   "/Users/rafaelszuminski/CS1A/CLion/LAB/lab_01.cpp" "/Users/rafaelszuminski/CS1A/CLion/cmake-build-debug/CMakeFiles/CLion.dir/LAB/lab_01.cpp.o"
+  "/Users/rafaelszuminski/CS1A/CLion/LAB/lab_03.cpp" "/Users/rafaelszuminski/CS1A/CLion/cmake-build-debug/CMakeFiles/CLion.dir/LAB/lab_03.cpp.o"
   "/Users/rafaelszuminski/CS1A/CLion/main.cpp" "/Users/rafaelszuminski/CS1A/CLion/cmake-build-debug/CMakeFiles/CLion.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")

@@ -177,6 +177,87 @@ HW/hw_02.cpp.s:
 	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/HW/hw_02.cpp.s
 .PHONY : HW/hw_02.cpp.s
 
+HW/hw_03.o: HW/hw_03.cpp.o
+
+.PHONY : HW/hw_03.o
+
+# target to build an object file
+HW/hw_03.cpp.o:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/HW/hw_03.cpp.o
+.PHONY : HW/hw_03.cpp.o
+
+HW/hw_03.i: HW/hw_03.cpp.i
+
+.PHONY : HW/hw_03.i
+
+# target to preprocess a source file
+HW/hw_03.cpp.i:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/HW/hw_03.cpp.i
+.PHONY : HW/hw_03.cpp.i
+
+HW/hw_03.s: HW/hw_03.cpp.s
+
+.PHONY : HW/hw_03.s
+
+# target to generate assembly for a file
+HW/hw_03.cpp.s:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/HW/hw_03.cpp.s
+.PHONY : HW/hw_03.cpp.s
+
+HW/hw_04.o: HW/hw_04.cpp.o
+
+.PHONY : HW/hw_04.o
+
+# target to build an object file
+HW/hw_04.cpp.o:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/HW/hw_04.cpp.o
+.PHONY : HW/hw_04.cpp.o
+
+HW/hw_04.i: HW/hw_04.cpp.i
+
+.PHONY : HW/hw_04.i
+
+# target to preprocess a source file
+HW/hw_04.cpp.i:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/HW/hw_04.cpp.i
+.PHONY : HW/hw_04.cpp.i
+
+HW/hw_04.s: HW/hw_04.cpp.s
+
+.PHONY : HW/hw_04.s
+
+# target to generate assembly for a file
+HW/hw_04.cpp.s:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/HW/hw_04.cpp.s
+.PHONY : HW/hw_04.cpp.s
+
+HW/lab_01.o: HW/lab_01.cpp.o
+
+.PHONY : HW/lab_01.o
+
+# target to build an object file
+HW/lab_01.cpp.o:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/HW/lab_01.cpp.o
+.PHONY : HW/lab_01.cpp.o
+
+HW/lab_01.i: HW/lab_01.cpp.i
+
+.PHONY : HW/lab_01.i
+
+# target to preprocess a source file
+HW/lab_01.cpp.i:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/HW/lab_01.cpp.i
+.PHONY : HW/lab_01.cpp.i
+
+HW/lab_01.s: HW/lab_01.cpp.s
+
+.PHONY : HW/lab_01.s
+
+# target to generate assembly for a file
+HW/lab_01.cpp.s:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/HW/lab_01.cpp.s
+.PHONY : HW/lab_01.cpp.s
+
 HW/r_utils.o: HW/r_utils.cpp.o
 
 .PHONY : HW/r_utils.o
@@ -231,6 +312,33 @@ LAB/lab_01.cpp.s:
 	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/LAB/lab_01.cpp.s
 .PHONY : LAB/lab_01.cpp.s
 
+LAB/lab_03.o: LAB/lab_03.cpp.o
+
+.PHONY : LAB/lab_03.o
+
+# target to build an object file
+LAB/lab_03.cpp.o:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/LAB/lab_03.cpp.o
+.PHONY : LAB/lab_03.cpp.o
+
+LAB/lab_03.i: LAB/lab_03.cpp.i
+
+.PHONY : LAB/lab_03.i
+
+# target to preprocess a source file
+LAB/lab_03.cpp.i:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/LAB/lab_03.cpp.i
+.PHONY : LAB/lab_03.cpp.i
+
+LAB/lab_03.s: LAB/lab_03.cpp.s
+
+.PHONY : LAB/lab_03.s
+
+# target to generate assembly for a file
+LAB/lab_03.cpp.s:
+	$(MAKE) -f CMakeFiles/CLion.dir/build.make CMakeFiles/CLion.dir/LAB/lab_03.cpp.s
+.PHONY : LAB/lab_03.cpp.s
+
 main.o: main.cpp.o
 
 .PHONY : main.o
@@ -273,12 +381,24 @@ help:
 	@echo "... HW/hw_02.o"
 	@echo "... HW/hw_02.i"
 	@echo "... HW/hw_02.s"
+	@echo "... HW/hw_03.o"
+	@echo "... HW/hw_03.i"
+	@echo "... HW/hw_03.s"
+	@echo "... HW/hw_04.o"
+	@echo "... HW/hw_04.i"
+	@echo "... HW/hw_04.s"
+	@echo "... HW/lab_01.o"
+	@echo "... HW/lab_01.i"
+	@echo "... HW/lab_01.s"
 	@echo "... HW/r_utils.o"
 	@echo "... HW/r_utils.i"
 	@echo "... HW/r_utils.s"
 	@echo "... LAB/lab_01.o"
 	@echo "... LAB/lab_01.i"
 	@echo "... LAB/lab_01.s"
+	@echo "... LAB/lab_03.o"
+	@echo "... LAB/lab_03.i"
+	@echo "... LAB/lab_03.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

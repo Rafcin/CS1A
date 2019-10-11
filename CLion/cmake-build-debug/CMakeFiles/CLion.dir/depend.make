@@ -5,9 +5,18 @@ CMakeFiles/CLion.dir/HW/avg.cpp.o: ../HW/avg.cpp
 
 CMakeFiles/CLion.dir/HW/hw_02.cpp.o: ../HW/hw_02.cpp
 
+CMakeFiles/CLion.dir/HW/hw_03.cpp.o: ../HW/hw_03.cpp
+
+CMakeFiles/CLion.dir/HW/hw_04.cpp.o: ../HW/hw_04.cpp
+
+CMakeFiles/CLion.dir/HW/lab_01.cpp.o: ../HW/lab_01.cpp
+
 CMakeFiles/CLion.dir/HW/r_utils.cpp.o: ../HW/r_utils.cpp
 
 CMakeFiles/CLion.dir/LAB/lab_01.cpp.o: ../LAB/lab_01.cpp
 
+CMakeFiles/CLion.dir/LAB/lab_03.cpp.o: ../LAB/lab_03.cpp
+
+CMakeFiles/CLion.dir/main.cpp.o: ../HW/HW04/hw04.h
 CMakeFiles/CLion.dir/main.cpp.o: ../main.cpp
 

@@ -1,0 +1,26 @@
+Script started on Thu Oct 10 19:59:58 2019
+[?1034hbash-3.2$ ls
+Avg			HW			TestMatrix		ValFile			hw.src
+CMakeLists.txt		LAB			UTILS			cmake-build-debug	main.cpp
+bash-3.2$ ls -l
+total 48
+-rw-r--r--  1 rafaelszuminski  staff    7 Sep 19 20:45 Avg
+-rw-r--r--  1 rafaelszuminski  staff  235 Oct 10 19:39 CMakeLists.txt
+drwxr-xr-x  9 rafaelszuminski  staff  288 Oct 10 19:39 HW
+drwxr-xr-x  6 rafaelszuminski  staff  192 Sep 26 19:49 LAB
+-rw-r--r--  1 rafaelszuminski  staff   17 Oct  1 20:37 TestMatrix
+drwxr-xr-x  2 rafaelszuminski  staff   64 Oct  1 20:38 UTILS
+-rw-r--r--  1 rafaelszuminski  staff   71 Sep 19 20:45 ValFile
+drwxr-xr-x  8 rafaelszuminski  staff  256 Oct 10 19:42 cmake-build-debug
+-rw-r--r--  1 rafaelszuminski  staff   43 Oct 10 19:59 hw.src
+-rw-r--r--  1 rafaelszuminski  staff  307 Oct 10 19:42 main.cpp
+bash-3.2$ G[Kg++ -c hw.[K0[K[K[K/Users/rafaelszuminski/CS1A/CLion/HW/HW04/hw04.h -o hw04.o
+clang: [0;1;35mwarning: [0mtreating 'c-header' input as 'c++-header' when in C++ mode, this behavior is deprecated [-Wdeprecated][0m
+bash-3.2$ g++ main [K.cpp [K[K[K[K[K[K[K[K[K/Users/rafaelszuminski/CS1A/CLion/main.cpp -o hw-[K03[K4 hw04.o
+ld: warning: ignoring file hw04.o, file was built for unsupported file format ( 0x43 0x50 0x43 0x48 0x01 0x08 0x00 0x00 0xCE 0x0A 0x00 0x00 0x07 0xC1 0xB3 0xD0 ) which is not the architecture being linked (x86_64): hw04.o
+bash-3.2$ edit
+bash: edit: command not found
+bash-3.2$ exit
+exit
+
+Script done on Thu Oct 10 20:02:04 2019

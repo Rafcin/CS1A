@@ -6,33 +6,13 @@
 
 #IncludeRegexTransform: 
 
-/Users/rafaelszuminski/CS1A/CLion/HW/hw_02.cpp
+/Users/rafaelszuminski/CS1A/CLion/HW/HW04/hw04.h
 iostream
 -
 iomanip
--
-math.h
--
-cmath
--
-fstream
--
-vector
 -
 
 /Users/rafaelszuminski/CS1A/CLion/main.cpp
-iostream
--
-iomanip
--
-math.h
--
-cmath
--
-fstream
--
-vector
--
-algorithm
+/Users/rafaelszuminski/CS1A/CLion/HW/HW04/hw04.h
 -
 
